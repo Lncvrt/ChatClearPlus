@@ -1,7 +1,7 @@
 {
-  "chatclearplus.midnightconfig.title":"ChatClear+ Configuration",
-  "chatclearplus.midnightconfig.amountToTriggerClear":"Amount of messages to trigger chat clear",
-  "chatclearplus.midnightconfig.allowEmptyMessages":"Allow empty messages",
-  "chatclearplus.midnightconfig.chatClearedMessage":"The message to show when chat is cleared",
-  "chatclearplus.midnightconfig.chatClearedMessageInfo":"For the setting above you can set it blank to disable it.\nRead https://minecraft.wiki/w/Formatting_codes for a list of formatting codes (Use & instead the section sign/symbol)"
+  "chatclearplus.midnightconfig.title": "ChatClear+ Configuration",
+  "chatclearplus.midnightconfig.amountToTriggerClear": "Amount of messages to trigger chat clear",
+  "chatclearplus.midnightconfig.allowEmptyMessages": "Allow empty messages",
+  "chatclearplus.midnightconfig.chatClearedMessage": "The message to show when chat is cleared",
+  "chatclearplus.midnightconfig.chatClearedMessageInfo": "For the setting above you can set it blank to disable it.\nRead https://minecraft.wiki/w/Formatting_codes for a list of formatting codes (Use & instead the section sign/symbol)"
 }

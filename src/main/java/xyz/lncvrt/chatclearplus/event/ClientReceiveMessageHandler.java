@@ -40,9 +40,7 @@ public class ClientReceiveMessageHandler {
                     chatHistory.subList(0, chatHistory.size() - Config.amountToTriggerClear).clear();
                 }
 
-                if (!Config.allowEmptyMessages && message.getString().trim().isEmpty()) { {
-                    return false;
-                }}
+                return Config.allowEmptyMessages || !message.getString().trim().isEmpty();
             }
             return true;
         });

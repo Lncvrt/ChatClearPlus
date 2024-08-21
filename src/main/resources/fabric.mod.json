@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "chatclearplus",
+  "version": "${version}",
+  "name": "ChatClear+",
+  "description": "A a simple Fabric mod designed to enhance the way servers clear chat messages, improving the normal method of flooding the chat with empty newlines.",
+  "authors": [
+    "Lncvrt"
+  ],
+  "contact": {
+    "issues": "https://github.com/Lncvrt/chat-clear-plus/issues",
+    "sources": "https://github.com/Lncvrt/chat-clear-plus",
+    "discord": "https://lncvrt.xyz/discord"
+  },
+  "license": "MIT",
+  "icon": "assets/chatclearplus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "xyz.lncvrt.chatclearplus.ChatClearPlus"
+    ],
+    "modmenu": [
+      "xyz.lncvrt.chatclearplus.ModMenuInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "language": {
+    "default": "en_US",
+    "supported": [
+      "en_US"
+    ]
+  }
+}
